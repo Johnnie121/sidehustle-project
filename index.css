@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-image: url(pexels-baskin-creative-studios-1766838.jpg);
+}
+.image{
+    position: relative;
+    width: 124px;
+    left: -300px;
+    opacity: .9;
+}
+.container{
+    margin-left: 400px;
+    background-color: oldlace;
+    min-height: 100vh;
+    padding-top: 90px;
+    padding-bottom: 5pc;
+}
+.box{
+    background-color: white;
+    margin-top: 50px;
+    height: fit-content;
+    padding-bottom: 23px; 
+    padding-left:  6px; 
+}
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2pc;
+    padding-top: 40px;
+
+    
+}
+h1{
+    text-align: center;
+    color: darkblue;
+}
+.name{
+    position: relative;
+    top: -14px;
+}
+.namein{
+    position: relative;
+    top: 5px;
+    left: -65px;
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+}
+.contact{
+    position: relative;
+    top: -19px;
+    left: 35px;
+}
+.pass{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top:25px ;
+}
+.password{
+    position: relative;
+    top: -20px;
+    left:39px ;
+}
+.passin{
+    position: relative;
+    left: -20px;
+}
+.in{
+    left: -80px;
+}
+.ino{ 
+    position: relative;
+    left:-35px ;
+}
+ .pasin{
+    position: relative;
+    left: -27px;
+}
+.mail{
+    position: relative;
+    left: -5px;
+}
+.no{
+    left: 60px;
+}
+input{
+    height: 30px;
+    width: 190px;
+}
+button{
+    width: 140px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 7px;
+    background-color: papayawhip;
+    text-transform: capitalize;
+}
+.end a{
+     text-decoration: none;
+     color: black;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
